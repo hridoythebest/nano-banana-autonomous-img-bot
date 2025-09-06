@@ -1,0 +1,260 @@
+{
+  "description": "Prompts for premium skincare/lifestyle ad generation. Same model description across varied scenes, locations, props, and wardrobe.",
+  "model_profile": {
+    "hair": "smooth long dark brown hair styled in loose waves",
+    "makeup": "glowing natural makeup look",
+    "expression": "warm, friendly smile"
+  },
+  "prompts": [
+    {
+      "name": "bathtub_spa_rose_petals",
+      "text": "A professional lifestyle product photoshoot featuring a young woman sitting in a modern white bathtub filled with soft bubbles and scattered rose petals. The woman has smooth long dark brown hair styled in loose waves, a glowing natural makeup look, and a warm, friendly smile. She is wrapped in a pastel pink towel that covers her chest, creating an elegant spa-like appearance. She is holding a pink skincare product bottle (with floral design and pump dispenser) in her right hand, clearly visible to the camera. The background includes rolled white towels neatly stacked on a wooden table, green indoor plants, and softly glowing candles for a relaxing ambiance. Natural light streams in from a nearby window, creating a bright yet cozy atmosphere. Lighting is soft, warm, and evenly balanced, highlighting the model’s skin tone and the product bottle. The overall mood is luxurious, refreshing, and calming, with high-resolution studio quality, sharp details, and clean composition suitable for premium skincare advertising."
+    },
+
+    {
+      "name": "vanity_table_morning_glow",
+      "text": "Premium skincare ad with the same young woman seated at a minimalist wooden vanity table near a window. Her long dark brown wavy hair frames her glowing face with natural makeup and a warm smile. She wears a soft cream satin robe loosely tied, revealing a spa-like look. She holds a pink skincare bottle with a pump dispenser in her right hand, angled to showcase the label. On the vanity: folded white towels, a small vase of blush roses, a glass of cucumber water, and a round mirror reflecting soft morning light. The scene is bright, airy, and elegant with clean composition and gentle highlights on the product."
+    },
+
+    {
+      "name": "marble_bathroom_flatlay_and_hold",
+      "text": "Editorial skincare scene in a luxury marble bathroom. The same model, long dark brown waves and natural makeup, smiles softly while sitting on the tub edge. She wears a pastel robe with delicate piping. In her right hand she holds a pink floral pump skincare bottle to camera. Surrounding props: rolled white towels, a wooden bath brush, eucalyptus leaves, a lit candle in frosted glass, and a silk eye mask. Crisp, high-resolution image with balanced soft lighting and subtle reflections on marble for a premium aesthetic."
+    },
+
+    {
+      "name": "garden_patio_morning_dew",
+      "text": "Lifestyle skincare ad on a serene garden patio. The same woman with long dark brown waves and natural makeup sits on a white cushioned bench. She wears a pastel pink summer dress with delicate straps. In her right hand, she presents a pink pump skincare bottle against a backdrop of green plants with morning dew. Props: wicker tray with rolled towel, small bowl of rose petals, and a glass bottle of infused water. Soft sun rays and gentle bokeh create a refreshing, premium feel."
+    },
+
+    {
+      "name": "spa_lounge_candles_and_wood",
+      "text": "Premium spa lounge setting: warm wooden textures, ambient candles, and indoor palms. The same model with long brown wavy hair and natural glow sits comfortably on a white chaise, wrapped in a plush white towel. She smiles warmly while holding a pink floral pump skincare bottle in her right hand, label facing forward. Composition is clean and centered with soft, even lighting and gentle rim light to separate subject from background."
+    },
+
+    {
+      "name": "sunlit_bedroom_minimal",
+      "text": "Minimalist, sunlit bedroom. The same woman with long dark brown waves and natural makeup sits near a window on crisp white bedding, wearing a pastel loungewear set. She holds a pink pump skincare bottle in her right hand, slightly elevated, clearly visible. Props: a eucalyptus branch in a simple ceramic vase, neatly folded towel, and a hardcover book. Bright, cozy, and premium editorial style with soft shadows and clean lines."
+    },
+
+    {
+      "name": "hotel_bath_suite_gold_accents",
+      "text": "High-end hotel bath suite with gold accents and large mirror. The same model, glowing complexion and warm smile, stands beside a freestanding tub, wearing a silky blush robe. In her right hand, she presents a pink floral skincare bottle to the camera. On the counter: rolled towels, rose petals, and a glass jar of cotton pads. Lighting is soft and luxurious, with reflections carefully controlled for a polished advertisement look."
+    },
+
+    {
+      "name": "tropical_indoor_greenery",
+      "text": "Lifestyle skincare scene surrounded by lush indoor tropical plants. The same young woman with long dark brown waves and natural makeup sits on a light rattan chair, wrapped in a pale pink towel. She holds a pink pump skincare bottle in her right hand, angled slightly toward the camera. Natural light filters through leaves, casting soft patterns. Props: white towel stack, bamboo tray, and a candle. Fresh, premium, relaxing ambiance."
+    },
+
+    {
+      "name": "evening_bath_time_candle_glow",
+      "text": "Cozy evening bath ambiance: the same model in a white tub with gentle bubbles, rose petals floating. Warm candlelight illuminates her glowing skin and long wavy hair. She smiles softly, holding a pink pump skincare bottle in her right hand, clearly framed. Surroundings: rolled towels, a wooden stool, and small glass jars. The mood is romantic, premium, and calming with cinematic highlights and soft shadows."
+    },
+
+    {
+      "name": "scandinavian_spa_monochrome",
+      "text": "Scandinavian-inspired spa set with light wood, matte white ceramics, and greenery. The same woman with long dark brown waves and natural makeup sits on a bench, wearing a minimal pastel robe. She holds a pink floral pump bottle in her right hand. Props: white towels, eucalyptus bundle, and a stone tray. Bright, minimalist, and editorial with clean composition and sharp details."
+    },
+
+    {
+      "name": "window_light_shower_scene",
+      "text": "Modern shower backdrop with frosted glass and soft window light. The same model, hair in loose waves and natural makeup, is wrapped in a pastel towel. She presents a pink pump skincare bottle in her right hand to camera. Props: small potted plant, folded towel, and a wooden bath brush on a shelf. Crisp, high-resolution, premium commercial style."
+    },
+
+    {
+      "name": "rose_garden_outdoors",
+      "text": "Outdoor rose garden lifestyle skincare ad. The same woman with long dark brown waves and natural makeup stands by a white garden bench, wearing a light floral summer dress. She holds a pink pump skincare bottle in her right hand. Props: bouquet of fresh roses, white towel, and a delicate lace cloth. Soft morning light, airy bokeh, premium editorial look."
+    },
+
+    {
+      "name": "marble_countertop_closeup",
+      "text": "Close-up hero shot with the same model leaning near a marble countertop. Her wavy dark brown hair and glowing natural makeup frame a warm smile. She holds a pink floral pump skincare bottle in her right hand at chest height, clearly lit. Props: neatly rolled towel, sprig of rosemary, candle. High-resolution, soft, even lighting and clean composition."
+    },
+
+    {
+      "name": "terracotta_spa_retreat",
+      "text": "Terracotta-toned spa retreat with textured walls and soft linens. The same model wears a blush wrap dress, long wavy hair and natural makeup glowing. She presents a pink pump skincare bottle in her right hand. Props: white towels, a clay bowl with petals, and a woven basket. Warm, balanced light for a luxurious, calming atmosphere."
+    },
+
+    {
+      "name": "minimal_studio_backdrop",
+      "text": "Premium studio setup with seamless off-white backdrop. The same woman with long dark brown waves and natural makeup stands three-quarter to camera, smiling warmly. She holds a pink floral pump skincare bottle in her right hand. Minimal props: small white block and a soft plant shadow. Clean, modern, high-end advertising look with perfect exposure and sharp detail."
+    },
+
+    {
+      "name": "japanese_spa_onzen_inspired",
+      "text": "Onsen-inspired indoor spa scene with wooden tub elements. The same model, wavy dark brown hair and natural makeup, is wrapped in a pale towel. She holds a pink pump skincare bottle in her right hand. Props: rolled towels, bamboo tray, small stones, and a candle. Soft, zen-like lighting for a premium wellness aesthetic."
+    },
+
+    {
+      "name": "sunset_window_silhouette",
+      "text": "Golden-hour window scene. The same woman sits on a window bench, warm sunlight outlining her wavy hair and glowing complexion. She presents a pink pump skincare bottle in her right hand. Props: folded towel, small vase with a single rose. Warm, cozy, luxurious mood with balanced highlights."
+    },
+
+    {
+      "name": "coastal_bathroom_breezy",
+      "text": "Coastal-inspired bathroom with light blue-gray tones and white accents. The same model, long dark brown waves and natural makeup, wears a pastel robe. She holds a pink floral pump skincare bottle in her right hand. Props: white towels, seashell dish, and a glass jar. Soft daylight, fresh and premium editorial style."
+    },
+
+    {
+      "name": "urban_loft_green_corner",
+      "text": "Urban loft vibe with concrete textures and a lush green plant corner. The same woman with wavy dark brown hair and natural makeup sits on a soft chair, wrapped in a pastel towel. She holds a pink pump skincare bottle in her right hand. Props: rolled towels, candle, small side table. Bright yet cozy lighting, high-resolution, modern premium look."
+    },
+
+    {
+      "name": "white_tile_shower_bokeh",
+      "text": "Bright white-tile shower background with soft bokeh. The same model, long wavy brown hair and natural makeup, smiles warmly. She presents a pink floral pump skincare bottle in her right hand. Props: eucalyptus on the shower head, folded towel on a bench. Clean, crisp, luxurious ad style."
+    },
+
+    {
+      "name": "spa_retail_shelf_display",
+      "text": "Premium spa retail shelf display as backdrop. The same woman with dark brown waves and natural glow stands in front of neatly arranged skincare shelves. She holds a pink pump bottle in her right hand at chest level. Props: towels, tester jars, small plants. Soft, even lighting and high-end commercial finish."
+    },
+
+    {
+      "name": "white_bathrobe_windowlight",
+      "text": "Soft window-lit portrait. The same model in a plush white bathrobe, hair in loose waves and natural makeup glowing. She holds a pink floral pump skincare bottle in her right hand. Props: white towel stack and a candle on a small table. Bright, clean, premium editorial composition."
+    }
+    ,
+    {
+      "name": "rooftop_sunrise_yoga",
+      "text": "Rooftop sunrise wellness scene. The same woman with long dark brown waves and natural makeup sits cross-legged on a pastel yoga mat, wearing a soft blush athleisure set. She holds a pink pump skincare bottle in her right hand near her knee, label visible. Background: warm dawn sky, subtle city skyline bokeh, potted grasses. Props: rolled white towel, glass water bottle with lemon. Soft golden light, fresh, premium, uplifting mood."
+    },
+    {
+      "name": "art_deco_hotel_lobby",
+      "text": "Elegant art-deco hotel lobby with marble floors and brass accents. The same model wears a tailored pastel pink midi dress with delicate earrings. She stands near a velvet lounge chair, smiling, holding a pink floral pump skincare bottle in her right hand at chest level. Props: fresh flowers on a side table, folded towel in a chic tote. Soft, directional lighting with refined highlights for a luxurious ad look."
+    },
+    {
+      "name": "minimal_concrete_spa",
+      "text": "Minimal concrete spa interior with textured gray walls and a calm reflecting pool. The same woman, long wavy dark hair and natural makeup, is wrapped in a pale robe. She presents a pink pump skincare bottle in her right hand. Props: eucalyptus branch, white towels stacked on a stone bench, single candle. Clean, contemporary composition with gentle soft boxes and subtle reflections."
+    },
+    {
+      "name": "winter_cabin_wellness",
+      "text": "Cozy winter wellness cabin with warm wood and a frosted window view. The same model wears a cream knit wrap and pastel lounge pants. She sits on a cushioned bench, holding a pink pump skincare bottle in her right hand. Props: folded towel, steaming herbal tea, pine sprig. Soft, warm lighting with a calm premium mood and crisp detail."
+    },
+    {
+      "name": "beach_boardwalk_sunrise",
+      "text": "Fresh sunrise by a beach boardwalk. The same woman with long wavy dark brown hair and natural makeup wears a flowing pastel sundress. She holds a pink floral pump skincare bottle in her right hand. Props: straw tote with white towel and a small bouquet of roses. Gentle ocean breeze feel, bright yet soft lighting, premium editorial vibe."
+    },
+    {
+      "name": "modern_kitchen_selfcare",
+      "text": "Bright modern kitchen self-care moment. The same model in a pastel satin robe leans on a marble island, smiling warmly. She presents a pink pump skincare bottle in her right hand. Props: rolled towel, small vase with eucalyptus, lemon water in a clear glass. Clean, high-end lifestyle composition with natural window light."
+    },
+    {
+      "name": "boutique_dressing_room",
+      "text": "Chic boutique dressing room with soft blush curtains and gold-rim mirror. The same woman wears a pastel slip dress with a delicate necklace. She holds a pink floral pump skincare bottle in her right hand, label forward. Props: neatly folded white towels, perfume tray, single rose stem. Soft, flattering lighting and refined, premium styling."
+    },
+    {
+      "name": "library_reading_nook",
+      "text": "Calm reading nook with built-in shelves and a window seat. The same model, natural glowing makeup and long waves, wears a pastel cardigan over a simple dress. She holds a pink pump skincare bottle in her right hand as she smiles to camera. Props: white towel, candle, small vase with baby’s breath. Bright, cozy, editorial composition with gentle highlights."
+    },
+    {
+      "name": "desert_resort_cabana",
+      "text": "Luxury desert resort cabana with soft linens and neutral tones. The same woman wrapped in a pastel robe reclines comfortably, holding a pink floral pump skincare bottle in her right hand. Props: rolled towels, clay vase with dried florals, glass of infused water. Warm, sun-kissed lighting with a premium, serene feel."
+    },
+    {
+      "name": "rainy_window_cozy_bath",
+      "text": "Cozy bath scene near a rain-speckled window. The same model with long dark brown wavy hair and natural makeup is wrapped in a soft pastel towel. She presents a pink pump skincare bottle in her right hand. Props: stacked white towels, lit candle, small plant on a stool. Soft, diffused lighting with reflective highlights for a high-end, calming mood."
+    },
+    {
+      "name": "beach_sand_flatlay_shells",
+      "text": "Product-only hero on warm beach sand. Place the pink skincare bottle with pump dispenser slightly embedded in soft sand, label facing camera. Surround with seashells, a small starfish, and gentle wave foam creeping into frame. High-end commercial lighting with subtle top light and soft fill; crisp details on sand grains and bottle texture."
+    },
+    {
+      "name": "beach_towel_sunhat_shadowplay",
+      "text": "Product on a pastel-striped beach towel with a woven sunhat casting natural shadows. Pink pump bottle centered, label sharp; small sea glass and coral fragments as accents. Bright, sunny exposure with controlled highlights and true-to-color rendition."
+    },
+    {
+      "name": "beach_driftwood_podium",
+      "text": "Premium product showcase on a weathered driftwood pedestal set on beach sand. Pink skincare bottle stands upright with clean label. Background: soft ocean horizon bokeh. Balanced daylight with subtle kicker to define bottle edges."
+    },
+    {
+      "name": "forest_moss_stone_macro",
+      "text": "Close-up product on a moss-covered stone in a lush forest. Dewy droplets on the pink bottle surface, fine condensation visible. Dappled sunlight filtering through leaves creates organic bokeh. Editorial composition with shallow depth of field."
+    },
+    {
+      "name": "forest_log_still_life",
+      "text": "Product-only still life on a smooth-cut log slice. Pink pump bottle centered with fern leaves, eucalyptus sprig, and small white wildflowers. Soft, cool forest light with gentle vignette for a premium, earthy feel."
+    },
+    {
+      "name": "waterfall_rock_spray",
+      "text": "Dynamic waterfall backdrop with the product placed on a wet rock ledge. Pink bottle with pump shows subtle water droplets; fine mist in air catches light. Fast shutter look for crisp product, soft motion blur in water for energy. High-end advertising finish."
+    },
+    {
+      "name": "waterfall_pool_reflection",
+      "text": "Product on a thin black stone just at the water’s edge, forming a clean reflection beneath the pink bottle. Soft bluish tones, silky waterfall bokeh in background. Controlled specular highlights on the bottle for a polished, luxurious look."
+    },
+    {
+      "name": "billboard_city_twilight_mock",
+      "text": "Large-format billboard showcase: isolate the pink skincare bottle as the hero image on a sleek billboard in a city twilight scene. Ambient city lights and traffic bokeh below. Ensure the product photo is ultra-sharp, color-accurate, and framed like a real outdoor ad."
+    },
+    {
+      "name": "bus_shelter_ad_lightbox",
+      "text": "Transit shelter lightbox advertisement concept. The pink pump bottle is the central graphic on a clean, premium background with subtle floral motif. Present the scene as a realistic street photograph at dusk, with the ad glowing softly and reflections on glass."
+    },
+    {
+      "name": "showcase_podium_acrylic",
+      "text": "Product-only on a glossy white podium with clear acrylic risers. Pink skincare bottle centered; soft gradient backdrop. Studio lighting with key, fill, and rim for crisp edges; faint floor reflection for a high-end cosmetic display feel."
+    },
+    {
+      "name": "marble_plinth_soft_shadow",
+      "text": "Minimal studio scene: pink pump bottle on a white marble plinth. Clean off-white background, soft directional light creating elegant long shadows. Hyper-real detail on label and pump; editorial cosmetic photography style."
+    },
+    {
+      "name": "mirror_reflection_beauty_table",
+      "text": "Product on a vanity table with a round mirror creating a tasteful reflection of the pink bottle. Props: single rose petal, folded white towel. Balanced studio light with precise control of reflections and highlights on bottle and mirror."
+    },
+    {
+      "name": "bathroom_tile_contrast",
+      "text": "Product-only against matte white subway tiles with soft window light. Pink bottle on a slim shelf with a small eucalyptus sprig. Clean, clinical-luxe aesthetic, true whites, and razor-sharp label clarity."
+    },
+    {
+      "name": "sandstone_canyon_minimal",
+      "text": "Sculptural product shot within a sandstone-inspired set. Pink bottle nestled between warm textured forms, subtle shadows and highlights sculpting the scene. Premium, art-directed cosmetic showcase."
+    },
+    {
+      "name": "floating_on_water_highlight",
+      "text": "Pink skincare bottle placed on a small clear acrylic platform just under the water surface, appearing to float. Gentle ripples create caustic light patterns. Clean, modern luxury presentation with high detail and controlled reflections."
+    },
+    {
+      "name": "ice_block_freshness",
+      "text": "Cooling freshness concept: product partially embedded in a crystal-clear ice block on a reflective surface. Fine condensation and micro-droplets on the pink bottle. Cool-toned studio lighting with crisp, premium finish."
+    },
+    {
+      "name": "botanical_laboratory_glassware",
+      "text": "Laboratory-chic set: pink bottle among clear glass beakers and pipettes, with botanical extracts (rose petals, eucalyptus) suspended in water. Backlit translucency, pristine cleanliness, and clinical luxury mood."
+    },
+    {
+      "name": "store_endcap_merchandising",
+      "text": "Retail endcap display concept: pyramid of product boxes with the pink pump bottle hero at front. Clean POS signage, soft shelf lighting, and neat arrangement. Present as a realistic retail photograph with premium brand cues."
+    },
+    {
+      "name": "gift_box_ribbon_unboxing",
+      "text": "Premium gift unboxing scene. Pink skincare bottle in a pastel box with satin ribbon partially opened. Tissue paper, rose petals, and a minimalist card. Soft, cozy lighting and luxurious detail for a festive, premium feel."
+    },
+    {
+      "name": "night_starry_beach_long_exposure",
+      "text": "Night beach concept: pink bottle on smooth sand with low, warm key light. Long-exposure sky with soft star trails; faint ocean line in distance. Product remains tack-sharp, with gentle, cinematic glow for a premium, imaginative ad."
+    },
+    {
+      "name": "aurora_ice_shore_glow",
+      "text": "Dreamlike arctic-style concept: product-only scene with the pink skincare bottle on dark volcanic sand near ice fragments. Subtle low key light on the bottle; distant aurora borealis paints a soft gradient in the sky. Crisp, premium look with controlled cool tones and micro-detail on bottle and ice."
+    },
+    {
+      "name": "prism_rainbow_dispersion_studio",
+      "text": "High-concept studio shot with glass prisms casting rainbow dispersion across a clean backdrop. Pink pump bottle centered on a matte pedestal; colorful light bands graze the label and pump. Ultra-precise reflections, minimal props, and a modern luxury cosmetic aesthetic."
+    },
+    {
+      "name": "projection_mapping_facade",
+      "text": "Nighttime urban art concept: product hero image integrated into a projection-mapped building facade. The pink skincare bottle appears luminous and larger-than-life, with floral animated overlays. Realistic street reflections, cinematic contrast, and premium campaign feel."
+    },
+    {
+      "name": "topdown_beach_sand_art_logo",
+      "text": "Top-down drone-style composition: product on smooth beach sand with a circular sand art pattern radiating from the bottle, hinting at brand motifs. Gentle surf line in corner; crisp shadows and label clarity. Bright, fresh, and eye-catching for outdoor ads."
+    },
+    {
+      "name": "neon_night_market_reflections",
+      "text": "Vibrant neon market atmosphere: product placed on a glossy black tabletop with vivid neon signage reflected on the surface. Pink bottle stands sharp against colorful bokeh. Controlled specular highlights and modern nightlife energy for a bold premium ad."
+    }
+  ]
+}

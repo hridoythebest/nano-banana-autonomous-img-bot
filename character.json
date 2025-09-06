@@ -1,0 +1,50 @@
+{
+    "character": {
+      "gender": "female",
+      "age": "mid 20s",
+      "ethnicity": "south asian",
+      "skin_tone": "warm beige with smooth glowing texture",
+      "face_shape": "oval with soft jawline and high cheekbones",
+      "forehead": "medium height, smooth",
+      "hair": {
+        "style": "long, naturally wavy",
+        "parting": "middle",
+        "length": "below shoulders",
+        "color": "dark brown with natural shine"
+      },
+      "eyebrows": {
+        "shape": "naturally arched",
+        "thickness": "medium",
+        "color": "dark brown"
+      },
+      "eyes": {
+        "shape": "almond",
+        "size": "medium-large",
+        "color": "deep brown",
+        "eyeliner": "soft natural eyeliner",
+        "eyelashes": "long and curled"
+      },
+      "nose": {
+        "shape": "straight and narrow",
+        "tip": "slightly rounded"
+      },
+      "cheeks": {
+        "fullness": "soft with subtle blush glow"
+      },
+      "lips": {
+        "shape": "well defined, slightly heart-shaped",
+        "fullness": "medium-full",
+        "color": "natural rose pink"
+      },
+      "teeth": {
+        "appearance": "even and white, visible in soft smile"
+      }
+    },
+    "style_preferences": {
+      "makeup": "natural, glowing, light foundation, subtle blush, soft pink lipstick",
+      "lighting": "soft studio lighting highlighting skin glow and facial features",
+      "resolution": "high detail, hyper-realistic, consistent face structure",
+      "consistency": "same model appearance across all generated images"
+    }
+  }
+  
