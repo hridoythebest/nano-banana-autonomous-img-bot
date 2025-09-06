@@ -256,5 +256,271 @@
       "name": "neon_night_market_reflections",
       "text": "Vibrant neon market atmosphere: product placed on a glossy black tabletop with vivid neon signage reflected on the surface. Pink bottle stands sharp against colorful bokeh. Controlled specular highlights and modern nightlife energy for a bold premium ad."
     }
+    ,
+    {
+      "name": "zero_gravity_water_orb",
+      "text": "Mind-bending zero-gravity concept: the pink skincare bottle appears suspended inside a large, perfectly spherical water droplet, mid-air, with micro-droplets orbiting. Clean gradient studio backdrop, precise reflections, and ultra-sharp label. Premium sci‑fi elegance with natural realism."
+    },
+    {
+      "name": "hologram_AR_showcase",
+      "text": "Futuristic AR retail concept: the product floats as a semi-transparent hologram above a clear pedestal in a minimal gallery-like space. Subtle animated scanlines and light refractions. Realistic camera angle with soft shadows on the floor and crisp, commercial finish."
+    },
+    {
+      "name": "macro_mist_backlit",
+      "text": "Extreme macro showcase: tight composition on the pink bottle with a fine backlit mist cloud revealing micro-droplets and caustics. Black-to-charcoal seamless background, pinpoint rim light defining the pump and edges. Hyper-real cosmetic photography."
+    },
+    {
+      "name": "kinetic_sand_wave_sculpture",
+      "text": "Art-directed kinetic sand sculpture: a wave-shaped crest of pale sand arches behind the product, which stands centered with pristine label. Soft desert studio palette, long elegant shadows, and immaculate texture detail."
+    },
+    {
+      "name": "crystal_cave_bioluminescence",
+      "text": "Product on a matte black stone within a crystalline cave scene. Subtle bioluminescent glow from blue-violet crystals paints the bottle edges. Cool atmospheric haze, sharp label, and premium cinematic mood."
+    },
+    {
+      "name": "kaleidoscope_mirror_tunnel",
+      "text": "Optical installation: product centered at the entrance of a mirror tunnel creating kaleidoscopic reflections around it, but the hero bottle remains singular and undistorted. Precise highlight control and modern luxury color grading."
+    },
+    {
+      "name": "quantum_lightfield_halo",
+      "text": "Ultra-futuristic studio: the pink bottle hovers within a programmable lightfield, concentric photon halos subtly warping around it. Clean charcoal backdrop with precise rim lights and diffraction sparkles. Impeccable label readability and sci‑fi premium mood."
+    },
+    {
+      "name": "microgravity_space_station_porthole",
+      "text": "Microgravity concept: product floats near a space-station porthole with Earth’s curve softly blurred outside. Subtle tether threads and floating micro-droplets emphasize weightlessness. Neutral-toned cabin lighting, crisp bottle edges, and commercial clarity."
+    },
+    {
+      "name": "liquid_metal_morph_pedestal",
+      "text": "High-tech set with a morphing liquid-metal pedestal forming around the bottle base. Mirror-like fluid flows create elegant curves and reflections. Controlled speculars, soft gradient background, and luxury cosmetic finish."
+    },
+    {
+      "name": "nanobot_assembly_macro",
+      "text": "Macro sci‑fi scene: micro ‘nanobot’ arms (sleek, minimal aesthetic) delicately position the bottle on a matte black plate. Micro-LED accents, shallow depth of field, immaculate label sharpness, and cinematic premium grading."
+    },
+    {
+      "name": "drone_swarm_lightshow",
+      "text": "Night skyline with coordinated mini-drones forming a luminous floral motif behind the hero bottle on a rooftop ledge. Vivid light trails, controlled flare, and tack-sharp product with high-end advertising contrast."
+    },
+    {
+      "name": "metamaterial_infinity_surface",
+      "text": "Product on a subtly undulating ‘infinity’ surface inspired by metamaterials—matte black with faint geometric micro-patterns that channel light. Soft laser lines skim the surface; bottle remains the crisp focal point."
+    },
+    {
+      "name": "volumetric_fog_laser_grid",
+      "text": "Cutting-edge studio with volumetric fog and a precise laser grid forming a gentle cage of beams around the bottle. Low-key atmosphere, clean reflections on the pump, and premium sci‑fi brand language."
+    },
+    {
+      "name": "timefreeze_water_shatter",
+      "text": "Dramatic time-freeze: a mid-air sheet of water shatters into crystal fragments around the perfectly sharp bottle. Black seamless background, ultra-fast look, micro-droplet detail, and luxurious high-contrast finish."
+    },
+    {
+      "name": "classic_marble_vanity_gold_trim",
+      "text": "Traditional luxury: pink skincare bottle on a white Carrara marble vanity with gold-trim faucet out of focus. Soft morning window light, delicate pearl necklace and neatly folded white towel as accents. Timeless, elegant commercial beauty style."
+    },
+    {
+      "name": "black_velvet_spotlight",
+      "text": "Old Hollywood elegance: product centered on rich black velvet fabric with a single soft spotlight creating gentle falloff. Minimal props, pristine label, subtle rim light, and refined shadows for a classic high-end cosmetic ad."
+    },
+    {
+      "name": "vintage_apothecary_setup",
+      "text": "Vintage apothecary scene: pink bottle surrounded by amber glass jars, handwritten labels, and a brass measuring spoon on a dark wooden counter. Warm, cozy lighting with slight film grain aesthetic while keeping the product sharp and modern."
+    },
+    {
+      "name": "parisian_boudoir_vanity",
+      "text": "Parisian boudoir-inspired vanity: ornate mirror with soft gilded frame, pastel roses in a crystal vase, lace cloth, and the product centered on a silver tray. Cream-toned color palette, soft natural light, premium romantic mood."
+    },
+    {
+      "name": "white_cyclorama_three_point_light",
+      "text": "Classic studio on seamless white cyclorama. Pink bottle stands alone, perfectly lit with three-point lighting: key, fill, and subtle rim. Clean shadows, color-accurate label, and timeless professional cosmetic look."
+    },
+    {
+      "name": "chiaroscuro_wood_table",
+      "text": "Classical chiaroscuro: product on a dark polished wood table, directional side light carving out form and depth. Muted backdrop, occasional rose petals, and a restrained palette for a museum-quality, timeless ad."
+    },
+    {
+      "name": "baroque_still_life_roses",
+      "text": "Baroque still-life composition: pink bottle amid deep red roses, draped silk, and a gilded frame edge. Rich, painterly lighting with gentle highlights on the label. Luxurious, heritage-inspired cosmetic presentation."
+    },
+    {
+      "name": "silver_mirror_perfume_tray",
+      "text": "Classic dressing-table elegance: product placed on a vintage silver mirror tray with cut-glass perfume bottle nearby. Soft, diffused window light and a few scattered rose petals. Crisp, premium, and timeless."
+    },
+    {
+      "name": "silk_drape_soft_pastels",
+      "text": "Soft pastel silk drape backdrop with elegant folds. The pink bottle centered on a small marble coaster. Gentle studio light for creamy highlights and delicate shadows; clean, classic beauty campaign feel."
+    },
+    {
+      "name": "art_nouveau_flourish_frame",
+      "text": "Art Nouveau inspired set: subtle floral linework motif arches behind the product in muted gold on cream. Pink bottle centered on a small pedestal, warm soft light, and refined, heritage-luxury mood."
+    }
+    ,
+    {
+      "name": "double_exposure_floral_overlay",
+      "text": "Photo-manipulation concept: create a double-exposure effect where delicate rose petals and leaves subtly overlay the silhouette of the pink skincare bottle while keeping the label crisp. Soft pastel background, fine film grain, premium editorial finish."
+    },
+    {
+      "name": "dispersion_particles_breeze",
+      "text": "Dynamic dispersion effect: fine petal and powder-like particles appear to trail off from the bottle’s edge as if caught in a gentle breeze, while the hero product remains perfectly sharp. Clean gradient backdrop, cinematic depth, luxury beauty tone."
+    },
+    {
+      "name": "liquid_splash_wrap_pink",
+      "text": "High-speed liquid manipulation: a graceful pink-toned liquid ribbon wraps around the bottle mid-air, forming an elegant helix. Freeze-frame look with micro-droplet detail; pure white studio background for a modern cosmetic ad."
+    },
+    {
+      "name": "levitation_shadows_minimal",
+      "text": "Minimal surreal levitation: the bottle floats a few centimeters above a soft matte surface, casting a clean shadow beneath. Subtle floating petals and precise softbox lighting emphasize dimension and premium simplicity."
+    },
+    {
+      "name": "glitch_scanline_neo",
+      "text": "Neo-digital photo effect: introduce tasteful glitch scanlines and chromatic shift around the product edges while preserving the label perfectly. Dark-to-neon gradient background, reflective base, and bold modern cosmetic energy."
+    },
+    {
+      "name": "parallax_motion_streaks",
+      "text": "Motion design look: background exhibits subtle parallax with horizontal light streaks suggesting speed, while the pink bottle remains tack-sharp. Controlled reflections and premium advertisement contrast."
+    },
+    {
+      "name": "paper_cutout_collage_pastel",
+      "text": "Art-collage manipulation: pastel paper cutouts form layered geometric shapes behind and partially in front of the bottle, with gentle drop shadows. Crisp product edges, matte textures, and high-end editorial art direction."
+    },
+    {
+      "name": "duotone_gradient_pop",
+      "text": "Graphic duotone treatment: background rendered in a smooth two-color gradient with subtle halftone overlays. The bottle remains photo-real and sharp, popping against the stylized scene. Clean label, fashion-forward ad vibe."
+    },
+    {
+      "name": "shattered_glass_focus",
+      "text": "Dramatic shattered-glass overlay: abstract, out-of-focus shards frame the product, guiding attention to the perfectly sharp bottle. Controlled specular highlights and rich contrast for an arresting premium look."
+    },
+    {
+      "name": "ink_in_water_plume",
+      "text": "Ethereal ink plumes billow in clear water behind the bottle, forming soft organic shapes that echo floral forms. Cool studio lighting, crystal clarity, and immaculate label detail for a luxurious cosmetic ad."
+    },
+    {
+      "name": "editors_choice_minimal_cover",
+      "text": "Magazine-cover minimalism: pink skincare bottle centered with generous negative space, subtle masthead-style typography area above (no real text), and a soft off-white seamless backdrop. Perfectly balanced composition, gentle shadow, ultra-clean editorial polish."
+    },
+    {
+      "name": "editors_choice_beauty_flatlay_grid",
+      "text": "Editorial beauty flatlay in a precise grid: hero bottle top-down with coordinating props (rose petals, silk ribbon, pearl pin, marble coaster) aligned to a clean grid on a pale background. Crisp shadows, high color accuracy, and magazine-feature neatness."
+    },
+    {
+      "name": "editors_choice_monochrome_graphic",
+      "text": "Monochrome editorial: all elements styled in tonal pinks with the bottle providing the gloss highlight. Graphic shapes and clean lines, softbox reflections controlled for a fashion-forward, cover-ready image."
+    },
+    {
+      "name": "editors_choice_architecture_lines",
+      "text": "Architectural editorial: product on a small pedestal with dramatic diagonal light and shadow bands cast by window blinds. Strong lines lead to the bottle; refined contrast and precise highlights for a premium magazine aesthetic."
+    },
+    {
+      "name": "editors_choice_shadow_play",
+      "text": "Studio set exploring shadow play: palm frond and geometric gobos cast layered shadows across a minimal backdrop. The bottle remains tack-sharp and well-separated, delivering a sophisticated editorial mood."
+    },
+    {
+      "name": "editors_choice_color_blocking",
+      "text": "Bold color-blocked planes (soft pink, cream, warm gray) intersect behind the bottle. Clean, editorial geometry with subtle depth cues, immaculate label detail, and premium beauty lighting."
+    },
+    {
+      "name": "editors_choice_texture_macro",
+      "text": "Close editorial macro: the bottle against refined textures—brushed metal, soft linen, and marble—arranged in a diagonal collage. Shallow depth, precise highlights, and luxury magazine sensibility."
+    },
+    {
+      "name": "editors_choice_typography_field",
+      "text": "Art-directed cover concept: negative space intentionally left for typography fields (no readable text), with the bottle placed at a power point. Elegant gradient backdrop, controlled rim light, and a contemporary editorial finish."
+    },
+    {
+      "name": "editors_choice_negative_space_typegrid",
+      "text": "Minimal cover-ready layout: bottle positioned low-center with generous negative space and an implicit modular type grid (no real text). Soft off-white backdrop, feathered shadow, premium editorial neatness."
+    },
+    {
+      "name": "editors_choice_bauhaus_blocks",
+      "text": "Bauhaus-inspired color geometry: interlocking cream, blush, and charcoal blocks create a graphic stage behind the product. Clean lines, perfect label clarity, and fashion-magazine sophistication."
+    },
+    {
+      "name": "editors_choice_soft_focus_haze",
+      "text": "Editorial softness: a thin atmospheric haze adds gentle halation around highlights while the product label remains tack-sharp. Subtle pastel backdrop, understated luxury mood, and refined beauty lighting."
+    },
+    {
+      "name": "editors_choice_handcrafted_paper_texture",
+      "text": "Handmade paper textures layered as a background collage in neutral creams and blush. Bottle sits slightly off-center with precise shadowing. Magazine-feature aesthetic with tactile warmth."
+    },
+    {
+      "name": "editors_choice_diagonal_rule_of_thirds",
+      "text": "Strong editorial composition: diagonal divider across the frame aligns with rule-of-thirds placement of the bottle. Balanced negative space for headline (no text). Clean, modern, cover-worthy polish."
+    },
+    {
+      "name": "editors_choice_folded_backdrops",
+      "text": "Folded seamless papers create sculptural curves behind the bottle. Subtle gradients along folds, elegant shadows, and super-clean product edges—perfect for a magazine opener."
+    },
+    {
+      "name": "editors_choice_gold_foil_stamp",
+      "text": "Premium editorial: faint gold-foil stamp motif (abstract, no readable text) glints in the background while the bottle remains the hero. Soft cream palette, controlled speculars, and refined brand luxury."
+    },
+    {
+      "name": "editors_choice_contact_sheet_montage",
+      "text": "Art-directed contact-sheet concept: subtle film-frame borders and a montage feel while keeping a single hero bottle prominent and hyper-real. Neutral background, crisp shadows, and fashion-editorial flair."
+    },
+    {
+      "name": "editors_choice_tilted_polaroid_stack",
+      "text": "Polaroid-stack editorial: the bottle hero sits centered while faint, tilted pseudo-Polaroid frames (no readable text) layer behind on a pale backdrop. Soft shadows, neat alignment, and a magazine-feature mood."
+    },
+    {
+      "name": "editors_choice_plexi_layers_shadow",
+      "text": "Translucent plexi layers arranged behind the bottle cast refined overlapping shadows. Clean studio palette (cream and blush), precise highlights, and a premium editorial presentation."
+    },
+    {
+      "name": "editors_choice_dual_key_crosslight",
+      "text": "Dual-key crosslight setup: two soft keys from opposing angles create sculpted, editorial contrast around the product. Minimal stage, generous negative space, and cover-ready cleanliness."
+    },
+    {
+      "name": "editors_choice_color_gel_edges",
+      "text": "Subtle color-gelled edge lights (warm and cool) rim the bottle on a neutral backdrop. Modern editorial energy with immaculate label clarity and balanced shadows."
+    },
+    {
+      "name": "editors_choice_geometric_cutout_window",
+      "text": "Geometric window cutout casts a crisp shape onto the backdrop behind the bottle. Strong lines, balanced composition, and high-end magazine minimalism."
+    },
+    {
+      "name": "editors_choice_handwritten_marker_guides",
+      "text": "Art-director’s desk concept: faint, stylized marker guide lines and crop marks (abstract, no real text) surround the product on a clean surface. The bottle remains pristine and central, with editorial polish."
+    },
+    {
+      "name": "world_class_cannes_red_carpet",
+      "text": "World-class campaign: product-only hero on a minimalist plinth with a refined red-carpet tone palette. Soft warm key light, subtle paparazzi bokeh flare behind, and immaculate label clarity. Cinematic, award-season luxury."
+    },
+    {
+      "name": "world_class_milan_atelier",
+      "text": "High-fashion atelier mood: pink bottle on a marble block with dressmaker forms and silk swatches blurred in the background. Neutral daylight with precise edge light; ultra-premium European fashion sensibility."
+    },
+    {
+      "name": "world_class_kyoto_ryokan_garden",
+      "text": "Zen-luxury concept: product on a smooth stone beside a raked gravel pattern and moss in a ryokan-style garden. Soft natural light, muted tones, and museum-grade composition for a global prestige feel."
+    },
+    {
+      "name": "world_class_santorini_terrace",
+      "text": "Iconic white-and-azure terrace backdrop inspired by Santorini architecture. Bottle on a clean white pedestal; Aegean blue horizon bokeh. Bright, airy luxury with flawless label reproduction."
+    },
+    {
+      "name": "world_class_iceland_black_sand",
+      "text": "Epic black-sand minimalism: pink bottle on matte volcanic sand with low cool key light and soft ocean mist in the distance. High contrast, razor detail, and global-flagship campaign energy."
+    },
+    {
+      "name": "world_class_dubai_skyline_helipad",
+      "text": "Ultra-modern skyline concept: product on a sleek circular pad with architectural lines and dusk city lights. Polished reflections, crisp edges, and a mega-city luxury vibe."
+    },
+    {
+      "name": "world_class_swiss_alpine_spa",
+      "text": "Alpine spa serenity: bottle on a warm cedar plank with a blurred mountain lake horizon. Clean, cool daylight and subtle steam for a pristine, international wellness luxury aesthetic."
+    },
+    {
+      "name": "world_class_paris_pont_alexandre_dawn",
+      "text": "Romantic Parisian dawn: product on a small marble plinth with ornate bridge details softly out of focus. Gentle sunrise glow, elegant highlights, and iconic global campaign mood."
+    },
+    {
+      "name": "world_class_amalfi_cliff_terrace",
+      "text": "Mediterranean terrace: bottle on a travertine step with lemon leaves and coastal cliffs blurred beyond. Sunlit premium freshness with editorial composition and crisp label."
+    },
+    {
+      "name": "world_class_monaco_yacht_deck",
+      "text": "Yacht-deck luxury: product on a teak surface with polished steel fittings and harbor bokeh. Golden-hour sparkle, precise specular control, and an unmistakably world-class campaign finish."
+    }
   ]
 }
