@@ -32,11 +32,11 @@ key_cycle = cycle(API_KEYS)
 
 DEFAULT_PROMPT = (
     "Create a high-quality, commercial advertisement-ready creative by combining the provided model/person image "
-    "with the provided product image. Place the product naturally in the model’s hand as if they are holding it, "
-    "ensuring proper perspective, lighting, and shadows for realism. Dynamically generate the background scene, "
-    "props, and location to match both the model and the product, reflecting a professional advertising style. "
-    "Maintain a clean, visually appealing composition with a focus on the product, while keeping the overall "
-    "aesthetic modern, premium, and brand-appropriate."
+    "with the provided product image. First, analyze the product image to determine its category, style, theme, and appropriate context. "
+    "Based on the product analysis, dynamically update the person's clothing, accessories, pose, location, and background to perfectly match the product's theme and style. "
+    "Place the product naturally in the model's hand or in an appropriate position, ensuring proper perspective, lighting, and shadows for realism. "
+    "Generate a cohesive scene that reflects a professional advertising style, with the updated elements harmonizing with the product. "
+    "Maintain a clean, visually appealing composition with a focus on the product, while keeping the overall aesthetic modern, premium, and brand-appropriate."
 )
 
 
@@ -120,7 +120,7 @@ def generate_ad(person_img: Path, product_img: Path, prompt: str, outdir: Path, 
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Compose professional ad images by combining a person and product image using Gemini with multi-threading and multiple API keys.")
+    parser = argparse.ArgumentParser(description="Compose professional ad images by combining a person and product image using Gemini with multi-threading and multiple API keys. This version dynamically updates person dress, location, and other elements based on product analysis.")
     parser.add_argument("--person", type=str, help="Path to a specific person image. If omitted, will use all images in person_images/ directory.")
     parser.add_argument("--product", type=str, help="Path to a specific product image. If omitted, will use all images in product_images/ directory.")
     parser.add_argument("--person_dir", type=str, default=str(Path(__file__).resolve().parents[1] / "person_images"), help="Directory containing person images.")

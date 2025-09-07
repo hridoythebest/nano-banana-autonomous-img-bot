@@ -9,14 +9,26 @@ from io import BytesIO
 from pathlib import Path
 from datetime import datetime
 import argparse
+import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from itertools import cycle
 
-# Load API key from environment variable
-API_KEY = os.environ.get("GEMINI_API_KEY")
-if not API_KEY:
+# Load API keys from environment variable (now a JSON array)
+API_KEYS_STR = os.environ.get("GEMINI_API_KEY")
+if not API_KEYS_STR:
     raise ValueError("GEMINI_API_KEY environment variable is not set. Please set it in your .env file.")
 
-# Configure the client with your API key
-client = genai.Client(api_key=API_KEY)
+try:
+    API_KEYS = json.loads(API_KEYS_STR)
+    if not isinstance(API_KEYS, list):
+        raise ValueError("GEMINI_API_KEY must be a JSON array of keys.")
+    if not API_KEYS:
+        raise ValueError("No API keys provided in GEMINI_API_KEY.")
+except json.JSONDecodeError:
+    raise ValueError("GEMINI_API_KEY must be valid JSON.")
+
+# Cycle through keys
+key_cycle = cycle(API_KEYS)
 
 
 def is_image_file(path: Path) -> bool:
@@ -39,7 +51,6 @@ def load_prompts(prompt_file: Path) -> list[dict]:
     with prompt_file.open("r", encoding="utf-8") as f:
         data = json.load(f)
     prompts = data.get("prompts", [])
-    # Each prompt entry expected to have keys: name, text
     cleaned = []
     for i, entry in enumerate(prompts):
         name = entry.get("name") or f"prompt_{i+1:02d}"
@@ -52,24 +63,40 @@ def load_prompts(prompt_file: Path) -> list[dict]:
     return cleaned
 
 
-def generate_from_prompt(prompt_name: str, prompt_text: str, product_img: Path, outdir: Path, model_name: str) -> Path | None:
-    print(f"\n[Start] Prompt='{prompt_name}' with product='{product_img.name}'")
+def generate_from_prompt(prompt_name: str, prompt_text: str, product_img: Path, outdir: Path, model_name: str, api_key: str) -> Path | None:
+    print(f"\n[Start] Prompt='{prompt_name}' with product='{product_img.name}' using key ending with {api_key[-10:]}")
     try:
         product = Image.open(product_img)
     except Exception as e:
         print(f"[Skip] Failed to open product image: {e}")
         return None
 
-    try:
-        response = client.models.generate_content(
-            model=model_name,
-            contents=[
-                prompt_text,
-                product,
-            ],
-        )
-    except Exception as e:
-        print(f"[Error] API call failed: {e}")
+    client = genai.Client(api_key=api_key)
+    max_retries = len(API_KEYS)  # Retry with all keys if needed
+    for attempt in range(max_retries):
+        try:
+            response = client.models.generate_content(
+                model=model_name,
+                contents=[
+                    prompt_text,
+                    product,
+                ],
+            )
+            break  # Success
+        except Exception as e:
+            error_str = str(e)
+            if "429" in error_str or "RESOURCE_EXHAUSTED" in error_str:
+                print(f"[Retry] API quota exhausted with key ending {api_key[-10:]}, switching key (attempt {attempt+1}/{max_retries})")
+                # Get next key
+                api_key = next(key_cycle)
+                client = genai.Client(api_key=api_key)
+                time.sleep(2)  # Wait before retry
+                continue
+            else:
+                print(f"[Error] API call failed: {e}")
+                return None
+    else:
+        print("[Error] All keys exhausted.")
         return None
 
     try:
@@ -93,6 +120,7 @@ def generate_from_prompt(prompt_name: str, prompt_text: str, product_img: Path, 
         edited_image = Image.open(BytesIO(image_parts[0]))
         edited_image.save(outpath)
         print(f"[Done] Saved: {outpath}")
+        time.sleep(2.5)  # Rate limit sleep
         return outpath
     except Exception as e:
         print(f"[Error] Failed to save output: {e}")
@@ -100,12 +128,13 @@ def generate_from_prompt(prompt_name: str, prompt_text: str, product_img: Path, 
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Bulk generate professional ad images from prompts and product images using Gemini.")
+    parser = argparse.ArgumentParser(description="Bulk generate professional ad images from prompts and product images using Gemini with multi-threading and multiple API keys.")
     parser.add_argument("--prompt_file", type=str, default=str(Path(__file__).resolve().parents[1] / "prompt.json"), help="Path to prompt JSON file.")
     parser.add_argument("--product_dir", type=str, default=str(Path(__file__).resolve().parents[1] / "product_images"), help="Directory containing product images.")
     parser.add_argument("--outdir", type=str, default=str(Path(__file__).resolve().parents[1] / "bulk_outputs"), help="Directory to save generated images.")
     parser.add_argument("--model", type=str, default="gemini-2.5-flash-image-preview", help="Model name to use.")
     parser.add_argument("--prompt_names", type=str, nargs="*", help="Optional list of prompt names to run (defaults to all).")
+    parser.add_argument("--max_workers", type=int, default=20, help="Number of concurrent threads.")
 
     args = parser.parse_args()
 
@@ -124,14 +153,23 @@ def main():
     if not product_images:
         raise FileNotFoundError(f"No product images found in {product_dir}")
 
-    print(f"Total generations to run: {len(prompts) * len(product_images)}")
-    success = 0
+    # Create pairs with assigned keys
+    pairs = []
     for p in prompts:
         for q in product_images:
-            if generate_from_prompt(p["name"], p["text"], q, outdir, args.model):
+            api_key = next(key_cycle)
+            pairs.append((p["name"], p["text"], q, outdir, args.model, api_key))
+
+    print(f"Total generations to run: {len(pairs)}")
+    success = 0
+
+    with ThreadPoolExecutor(max_workers=args.max_workers) as executor:
+        futures = [executor.submit(generate_from_prompt, *pair) for pair in pairs]
+        for future in as_completed(futures):
+            if future.result():
                 success += 1
 
-    print(f"\nCompleted. Successful generations: {success}/{len(prompts) * len(product_images)}")
+    print(f"\nCompleted. Successful generations: {success}/{len(pairs)}")
 
 
 if __name__ == "__main__":
