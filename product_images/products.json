@@ -1,0 +1,57 @@
+[
+    {
+      "subject": "পদার্থবিজ্ঞান",
+      "paper": "১ম পত্র",
+      "chapters": 9,
+      "animated_topics": 112,
+      "version": "Bangla",
+      "level": "HSC",
+      "details": "Details"
+    },
+    {
+      "subject": "পদার্থবিজ্ঞান",
+      "paper": "২য় পত্র",
+      "chapters": null,
+      "animated_topics": null,
+      "version": "Bangla",
+      "level": "HSC",
+      "details": "Details"
+    },
+    {
+      "subject": "রসায়ন",
+      "paper": "১ম পত্র",
+      "chapters": 5,
+      "animated_topics": 67,
+      "version": "Bangla",
+      "level": "HSC",
+      "details": "Details"
+    },
+    {
+      "subject": "রসায়ন",
+      "paper": "২য় পত্র",
+      "chapters": null,
+      "animated_topics": null,
+      "version": "Bangla",
+      "level": "HSC",
+      "details": "Details"
+    },
+    {
+      "subject": "জীববিজ্ঞান",
+      "paper": "১ম পত্র",
+      "chapters": null,
+      "animated_topics": null,
+      "version": "Bangla",
+      "level": "HSC",
+      "details": "Details"
+    },
+    {
+      "subject": "জীববিজ্ঞান",
+      "paper": "২য় পত্র",
+      "chapters": 12,
+      "animated_topics": 115,
+      "version": "Bangla",
+      "level": "HSC",
+      "details": "Details"
+    }
+  ]
+  

@@ -1,0 +1,87 @@
+{
+  "Albert Einstein": {
+    "quotes": [
+      "Imagination is everything. It is the preview of life's coming attractions.",
+      "Try not to become a person of success, but rather try to become a person of value.",
+      "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+      "The important thing is not to stop questioning.",
+      "In the middle of difficulty lies opportunity.",
+      "Strive not to be a success, but rather to be of value.",
+      "A person who never made a mistake never tried anything new.",
+      "The measure of intelligence is the ability to change.",
+      "Only a life lived for others is a life worthwhile.",
+      "The true sign of intelligence is not knowledge but imagination.",
+      "Great spirits have always encountered violent opposition from mediocre minds."
+    ],
+    "description": "Theoretical physicist with wild white hair, mustache, wearing a sweater",
+    "style": "Black and white portrait, intellectual, thoughtful expression"
+  },
+  "Nelson Mandela": {
+    "quotes": [
+      "It always seems impossible until it's done.",
+      "Education is the most powerful weapon which you can use to change the world.",
+      "The greatest glory in living lies not in never falling, but in rising every time we fall.",
+      "What counts in life is not the mere fact that we have lived.",
+      "Courage is not the absence of fear — it's inspiring others to move beyond it.",
+      "Resentment is like drinking poison and then hoping it will kill your enemies.",
+      "Lead from the back — and let others believe they are in front.",
+      "Do not judge me by my successes, judge me by how many times I fell and got back up again.",
+      "A good head and a good heart are always a formidable combination.",
+      "I never lose. I either win or learn.",
+      "Action without vision is only passing time, vision without action is merely daydreaming."
+    ],
+    "description": "Elderly African leader with kind eyes, warm smile, dignified appearance",
+    "style": "Black and white portrait, wise and compassionate expression"
+  },
+  "APJ Abdul Kalam": {
+    "quotes": [
+      "Dream is not that which you see while sleeping, it is something that does not let you sleep.",
+      "Don't take rest after your first victory because if you fail in second, more lips are waiting to say that your first victory was just luck.",
+      "All of us do not have equal talent. But, all of us have an equal opportunity to develop our talents.",
+      "Excellence is a continuous process and not an accident.",
+      "If you want to shine like a sun, first burn like a sun.",
+      "Great dreams of great dreamers are always transcended.",
+      "Man needs difficulties in life because they are necessary to enjoy success.",
+      "If four things are followed – having a great aim, acquiring knowledge, hard work, and perseverance – then anything can be achieved.",
+      "The best brains of the nation may be found on the last benches of the classroom.",
+      "To succeed in your mission, you must have single-minded devotion to your goal.",
+      "Climbing to the top demands strength, whether it is to the top of Mount Everest or to the top of your career."
+    ],
+    "description": "Indian scientist with silver hair, gentle smile, wearing simple clothes",
+    "style": "Warm portrait with inspiring background, humble yet powerful presence"
+  },
+  "Steve Jobs": {
+    "quotes": [
+      "Innovation distinguishes between a leader and a follower.",
+      "Stay hungry, stay foolish.",
+      "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work.",
+      "The people in the crazy ones are the ones who change the world.",
+      "Design is not just what it looks like and feels like. Design is how it works.",
+      "Sometimes when you innovate, you make mistakes. It is best to admit them quickly and get on with improving.",
+      "Be a yardstick of quality. Some people aren't used to an environment where excellence is expected.",
+      "I want to put a ding in the universe.",
+      "Innovation is saying no to a thousand things.",
+      "Have the courage to follow your heart and intuition. They somehow already know what you truly want to become.",
+      "Creativity is just connecting things."
+    ],
+    "description": "Tech innovator with black turtleneck, focused intense gaze",
+    "style": "Modern clean portrait, minimalist background, confident expression"
+  },
+  "Maya Angelou": {
+    "quotes": [
+      "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
+      "If you don't like something, change it. If you can't change it, change your attitude.",
+      "Try to be a rainbow in someone's cloud.",
+      "Nothing will work unless you do.",
+      "You may not control all the events that happen to you, but you can decide not to be reduced by them.",
+      "We may encounter many defeats but we must not be defeated.",
+      "If you find it in your heart to care for somebody else, you will have succeeded.",
+      "When you learn, teach. When you get, give.",
+      "Courage is the most important of all the virtues because without courage, you can't practice any other virtue consistently.",
+      "I can be changed by what happens to me. But I refuse to be reduced by it.",
+      "Success is liking yourself, liking what you do, and liking how you do it."
+    ],
+    "description": "African American poet with elegant appearance, warm smile, colorful clothing",
+    "style": "Vibrant portrait with artistic background, inspiring and uplifting mood"
+  }
+}
